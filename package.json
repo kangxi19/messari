@@ -1,0 +1,25 @@
+{
+  "name": "messari",
+  "version": "1.0.0",
+  "description": "This is an accounting, inventory tracking, and online store system for educational purposes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangxi19/messari.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangxi19/messari/issues"
+  },
+  "homepage": "https://github.com/kangxi19/messari#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
+  }
+}
