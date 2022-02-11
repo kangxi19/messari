@@ -8,12 +8,12 @@ client = new Client({
 });
 client.connect()
 client.query('SELECT now()', (err, res) => {
-  if (!err){
-
-    console.log(res)
-  } else{
-    console.log(err)
-
+  if (err){
+    console.log(`Error: ${err}`);
+  }else{
+    //destructuring the results
+    [result]=res.rows;
+    console.log(`Result: ${result}`);
   }
-    client.end()
-})
+  client.end();
+});
